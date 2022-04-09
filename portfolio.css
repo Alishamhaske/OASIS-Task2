@@ -1,0 +1,1225 @@
+.menubar{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    float: left;
+    background-color: white;
+    margin-top: -10px;
+}
+
+.logotrio{
+    width: 25%;
+    height: 100px;
+    float: left;
+    
+}
+.logotrio img{
+    padding: 30px 20px 20px 100px;
+    width: 130px;
+}
+.menuoption{
+    width: 55%;
+    height: 100px;
+    float: left;
+   
+}
+.menuoption li{
+    padding: 35px 25px 20px 10px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+.menuoption a{
+    text-decoration: none;
+    color: black;
+}
+.buy{
+   padding: 25px;
+   float: left;
+   font-size: 30px;
+   cursor: pointer;
+}
+.bar3{
+   padding: 25px;
+   float: left;
+   font-size: 30px;
+   cursor: pointer;
+}
+
+.homepage .sub li{
+    display:block;
+    /* margin-left: -100px; */
+   padding: 10px 10px 10px 10px ;
+    width: 180px;
+    
+}
+ .sub  {
+    position: absolute;
+    top:50px;
+    color: black;
+    margin-left: -70;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    display: none;
+
+}
+.homepage:hover .sub{
+    display: block;
+    
+}
+
+.secondpage .subpage1 li{
+    display:block;
+    /* margin-left: -100px; */
+   padding: 10px 40px 3px 10px ;
+    width: 100px;
+    
+}
+ .subpage1 {
+    position: absolute;
+    top:50px;
+    color: black;
+    margin-left: -70;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    display: none;
+
+}
+.secondpage:hover .subpage1{
+    display: block;
+    width: 160px;    
+}
+.shoppage .subshoppage li{
+    display:block;
+    /* margin-left: -100px; */
+   padding: 2px 40px 8px 10px ;
+    width: 130px;
+    
+}
+ .subshoppage {
+    position: absolute;
+    top:50px;
+    color: black;
+    margin-left: -70;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    display: none;
+
+}
+.shoppage:hover .subshoppage{
+    display: block;
+    width: 250px;
+   
+    
+}
+.blogpage .subblogpage li{
+    display:block;
+    /* margin-left: -100px; */
+   padding: 2px 40px 8px 10px ;
+    width: 250px;
+    
+}
+ .subblogpage {
+    position: absolute;
+    top:50px;
+    color: black;
+    margin-left: -70;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    display: none;
+
+}
+.blogpage:hover .subblogpage{
+    display: block;
+    width: 650px;
+   
+    
+}
+.portfoliopage .subport li{
+    display:block;
+    /* margin-left: -100px; */
+   padding: 10px 10px 5px 10px ;
+    width: 230px;
+    
+}
+ .subport {
+    position: absolute;
+    top:50px;
+    color: black;
+    margin-left: -100;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    display: none;
+
+   
+}
+.portfoliopage:hover .subport{
+    display: block; 
+    
+}
+
+ /* elements  sub menu page*/
+.elementpage .elementsubpage li{
+    display:block;
+    /* margin-left: -100px; */
+   padding: 10px 10px 10px 10px ;
+    width: 180px;
+    
+}
+ .elementsubpage  {
+    position: absolute;
+    top:50px;
+    color: black;
+    margin-left: -70;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    display: none;
+
+}
+.elementpage:hover .elementsubpage{
+    display: block;
+    
+}
+.phonemenu .phonemenuoption{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/*portfolio*/
+.portfolio{
+    height: 500px;
+    width: 100%;
+    float: left;
+    background-image: url(https://resourceboy.com/wp-content/uploads/2021/11/floating-business-cards-mockup-thumbnail.jpg);
+}
+.portfolio h1{
+    color:white;
+    font-size:60px;
+    text-align:center;
+    margin-top:200px;
+}
+.option{
+    height:250px;
+    width:100%;
+    float:left;
+    background-color:white;
+}
+.all{
+    height:50px;
+    width:80px;
+    float:left;
+    border:1px solid black;
+    margin-top:100px;
+    margin-left:20%;
+}
+.all h1{
+    text-align: center;
+    margin-top:10px;
+    font-size:20px;
+    color: black;
+}
+
+.branding{
+     height:50px;
+    width:130px;
+    float:left;
+    border:1px solid black;
+    margin-top:100px;
+    margin-left:10px;
+}
+.branding h1{
+    text-align: center;
+    margin-top:10px;
+    font-size:20px;
+    color: black;
+}
+.design{
+     height:50px;
+    width:130px;
+    float:left;
+    border:1px solid black;
+    margin-top:100px;
+    margin-left:10px;
+}
+.design h1{
+    text-align: center;
+    margin-top:10px;
+    font-size:20px;
+    color: black;
+}
+.markup{
+     height:50px;
+    width:130px;
+    float:left;
+    border:1px solid black;
+    margin-top:100px;
+    margin-left:10px;
+}
+.markup h1{
+    text-align: center;
+    margin-top:10px;
+    font-size:20px;
+    color:black;
+}
+.modeling{
+     height:50px;
+    width:140px;
+    float:left;
+    border:1px solid black;
+    margin-top:100px;
+    margin-left:10px;
+}
+.modeling h1{
+    text-align: center;
+    margin-top:10px;
+    font-size:20px;
+    color:black;
+}.photography{
+     height:50px;
+    width:200px;
+    float:left;
+    border:1px solid black;
+    margin-top:100px;
+    margin-left:10px;
+}
+.photography h1{
+    text-align: center;
+    margin-top:10px;
+    font-size:20px;
+    color: black;
+}
+/*first row*/
+#all2{
+    height:1200px;
+    width:100%;
+    float:left;
+}
+
+#allimg{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL06KLIxkfyAjdVAR34uHyZL2fZhXjmh811g&usqp=CAU);
+} 
+.allimg .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg:hover .img{
+    display:block;
+}
+
+.allimg2{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://template.hasthemes.com/trio/trio/assets/img/home-landing-page/portfolio/01.jpg);
+
+} 
+.allimg2 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg2 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg2 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg2:hover .img{
+    display:block;
+}
+
+.allimg3{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGciu3zYWXIJ9PL502NkUAt16UsM6YlH6JEQ&usqp=CAU);
+}
+
+.allimg3 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg3 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg3 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg3:hover .img{
+    display:block;
+}
+
+.allimg4{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://templatefor.net/wp-content/uploads/2019/07/6-Vintage-Camera-Mockups-Bundle.jpg);
+}
+
+.allimg4 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg4 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg4 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg4:hover .img{
+    display:block;
+}
+/* Second Row*/
+.allimg5{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://template.hasthemes.com/trio/trio/assets/img/home-landing-page/portfolio/01.jpg);
+} 
+.allimg5 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg5 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg5 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg5:hover .img{
+    display:block;
+}
+
+.allimg6{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://www.fashn.de/mode/Celucke/Minimalistische-Armbanduhr-Herren-Uhren-Business-Quarzuhr-mit-Edelstahl-Mesh-Armband,-Maenner-Netzarmbanduhr-Quarz-Uhr-Analog-Klassisch-Herrenuhr-Celucke-von-Celucke-A-B-Groesse-Medium-1593903791.jpg);
+
+} 
+.allimg6 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg6 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg6 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg6:hover .img{
+    display:block;
+}
+
+.allimg7{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpFbeJ9oQ0-JPS4_ovmUTZDOMP6vX6x_RZkw&usqp=CAU);
+}
+
+.allimg7 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg7 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg7 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg7:hover .img{
+    display:block;
+}
+
+.allimg8{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://img.freepik.com/free-psd/floating-business-card-mockup_308775-32.jpg?size=626&ext=jpg);
+}
+
+.allimg8 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg8 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg8 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg8:hover .img{
+    display:block;
+}
+/*Third Row*/
+
+.allimg9{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL06KLIxkfyAjdVAR34uHyZL2fZhXjmh811g&usqp=CAU);
+} 
+.allimg9 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg9 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg9 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg9:hover .img{
+    display:block;
+}
+
+.allimg10{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://template.hasthemes.com/trio/trio/assets/img/home-landing-page/portfolio/01.jpg);
+
+} 
+.allimg10 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg10 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg10 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg10:hover .img{
+    display:block;
+}
+
+.allimg11{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGciu3zYWXIJ9PL502NkUAt16UsM6YlH6JEQ&usqp=CAU);
+}
+
+.allimg11 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg11 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg11 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg11:hover .img{
+    display:block;
+}
+
+.allimg12{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://templatefor.net/wp-content/uploads/2019/07/6-Vintage-Camera-Mockups-Bundle.jpg);
+}
+
+.allimg12 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg12 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg12 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg12:hover .img{
+    display:block;
+}
+
+
+/* BRANDING */
+
+.b2{
+    height:800px;
+    width:100%;
+    float:left;
+}
+
+.allimg{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL06KLIxkfyAjdVAR34uHyZL2fZhXjmh811g&usqp=CAU);
+} 
+.allimg .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg:hover .img{
+    display:block;
+}
+
+.allimg2{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://template.hasthemes.com/trio/trio/assets/img/home-landing-page/portfolio/01.jpg);
+
+} 
+.allimg2 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg2 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg2 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg2:hover .img{
+    display:block;
+}
+
+.allimg3{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGciu3zYWXIJ9PL502NkUAt16UsM6YlH6JEQ&usqp=CAU);
+}
+
+.allimg3 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg3 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg3 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg3:hover .img{
+    display:block;
+}
+
+.allimg4{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://templatefor.net/wp-content/uploads/2019/07/6-Vintage-Camera-Mockups-Bundle.jpg);
+}
+
+.allimg4 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg4 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg4 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg4:hover .img{
+    display:block;
+}
+/* Second Row*/
+.allimg5{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://template.hasthemes.com/trio/trio/assets/img/home-landing-page/portfolio/01.jpg);
+} 
+.allimg5 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg5 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg5 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg5:hover .img{
+    display:block;
+}
+
+.allimg6{
+    height:400px;
+    width:25%;
+    float:left;
+    background-image: url(https://www.fashn.de/mode/Celucke/Minimalistische-Armbanduhr-Herren-Uhren-Business-Quarzuhr-mit-Edelstahl-Mesh-Armband,-Maenner-Netzarmbanduhr-Quarz-Uhr-Analog-Klassisch-Herrenuhr-Celucke-von-Celucke-A-B-Groesse-Medium-1593903791.jpg);
+
+} 
+.allimg6 .img h1{
+    color:white;
+    text-align:center;
+    margin-top:50%;
+}
+.allimg6 .img h2{
+   color:white;
+    text-align:center;
+    margin-top:5%;
+}
+.allimg6 .img h3{
+    color:orange;
+    margin-top:40%;
+    margin-right:40%;
+}
+.img{
+    height:400px;
+    width:100%;
+    float:left;
+    background-color:hsla(240,100%,0%,0.6);
+    text-align: center;
+    display:none;
+}
+.allimg6:hover .img{
+    display:block;
+}
+
+
+
+
+
+
+
+.black {
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+    float: left;
+    background-color: black;
+    color: white;
+}
+
+.booking {
+    height: 400px;
+    width: 25%;
+    margin-top: 100px;
+    /* background-color: aqua;*/
+    float: left;
+    margin-left: 70px;
+}
+
+.bookingheading {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.row1 {
+    height: 5px;
+    width: 10%;
+    background-color: orange;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.booking_info {
+    line-height: 1.5;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.booking_info1 {
+    line-height: 1.5;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.links {
+    height: 400px;
+    width: 20%;
+    margin-top: 100px;
+   
+    float: left;
+}
+
+.linksheading {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.row2 {
+    height: 5px;
+    width: 10%;
+    background-color: orange;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.linkmenu {
+    margin-left: 0px;
+}
+
+.linkmenu li {
+    list-style-type: none;
+    display: block;
+    line-height: 2.5;
+    margin-left: 0px;
+}
+
+.linkmenu li:hover {
+    margin-left: 10px;
+    color: orange;
+
+}
+
+.latest {
+    height: 400px;
+    width: 25%;
+    margin-top: 100px;
+  
+    float: left;
+}
+
+.latestheading {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.row3 {
+    height: 5px;
+    width: 10%;
+    background-color: orange;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.wheading {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.wheading:hover {
+    color: orange;
+    margin-left: 20px;
+}
+
+.row4 {
+    height: 5px;
+    width: 10%;
+    background-color: gray;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.cheading {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.cheading:hover {
+    color: orange;
+    margin-left: 20px;
+}
+
+#clock {
+    margin-left: 10px;
+}
+
+#clock1 {
+    margin-left: 10px;
+}
+
+.get {
+    height: 400px;
+    width: 20%;
+    margin-top: 100px;
+   
+    float: left;
+}
+
+.getheading {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.row5 {
+    height: 5px;
+    width: 10%;
+    background-color: orange;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.get_info {
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+
+
+.email {
+    height: 50px;
+    width: 65%;
+    border: none;
+    margin-left: 10px;
+    background-color: grey;
+
+}
+
+.email i {
+    color: orange;
+}
+
+button i {
+    float: right;
+}
+
+@media(max-width:667px) {
+    .black {
+        height: auto;
+    }
+
+    .booking {
+        width: 80%;
+        margin-left: 60px;
+    }
+
+    .bookingheading {
+        margin-left: 10px;
+    }
+
+    .links {
+        width: 80%;
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+
+    .linksheading {
+        margin-left: 10px;
+    }
+
+    .get {
+        width: 80%;
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+
+    .linkmenu li {
+        margin-left: 0px;
+    }
+
+    .latest {
+        width: 80%;
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    float: left;
+}
+
+.footer1 {
+    height: 100px;
+    width: 50%;
+    float: left;
+  
+    font-size: 20px;
+}
+
+.Copyright {
+    font-size: 17px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.footer2 {
+    height: 100px;
+    width: 40%;
+    float: left;
+    
+}
+
+.iconsss li {
+    display: inline-block;
+    list-style-type: none;
+    /* float:right; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.iconsss li i:hover {
+    color: orange;
+    font-size:20px ;
+}
+
+
+
+
+
